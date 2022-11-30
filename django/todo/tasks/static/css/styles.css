@@ -3,6 +3,9 @@
 
 }
 
+.container-fluid .row {
+    margin: 0;
+}
 /* Navbar */
 
 .navbar {
@@ -146,5 +149,5 @@ ul.messages {
 /* login */
 
 .auth-card {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
