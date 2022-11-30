@@ -146,8 +146,27 @@ ul.messages {
     margin-right: 5px;
 }
 
+.mgbtn {
+    width: 300px;
+    text-align: center;
+    padding: 10px 15px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    background-color: #13c43f;
+    
+}
+
+.cnt{
+    align-self: center;
+}
+
 /* login */
 
 .auth-card {
     margin-bottom: 40px;
+}
+
+.change-form-p {
+    margin-top: 30px;
+    text-align: center;
 }

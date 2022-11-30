@@ -7,7 +7,7 @@
 <div class="row">
     <div class="col-md-4 offset-md-4">
         <div class="card auth-card">
-            <div class="card-body">
+            <div class="card-body cnt">
                 <h4 class="card-title text-center">Registrar no To Do List</h4>
 
                 <form method="post">
@@ -16,9 +16,11 @@
 
                     {{ form|crispy}}
                     <br>
-                    <button type="submit" class="btn btn-primary btn-block">Registrar</button>
+                    <button type="submit" class="btn btn-primary btn-block mgbtn">Registrar</button>
                     
                 </form>
+
+                <p class="change-form-p">Já possui uma conta? <a class="task-text" href="/accounts/login">Clique aqui!</a></p>
             </div>
         </div>
     </div>
